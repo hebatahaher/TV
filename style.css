@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+body{
+	background-color:#ffe6b3;
+	background-attachment:fixed;
+	background-size:cover;
+	font-family:new time roman;
+
+	
+}
+
+h1{
+	font-size:50px;
+	color:white;
+	margin-top:30px;
+	margin-bottom:60px;
+	
+}
+.col-md-5{
+	background:rgb(0,0,0,0.5);
+	margin-top:40px;
+
+	
+    
+}
+.label{
+	font-size:20px;
+	font-weight:normal;
+	
+}
+.input-group{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.input-group-addon{
+	background:transparent;
+	//border-radius:0px;
+	//border:0px;
+	border-bottom:1px solid gray;
+	font-size:18px;
+	color:gray;
+	
+}
+.form-control {
+	background:transparent;
+	//border-radius:0px;
+	//border:0px;
+	border-bottom: 1px solid gray ;
+	padding:15px;
+	color:white;
+	font-size:21px;
+	
+}
+p{
+	font-size:18px;
+	color:white;
+}
+.btn-default{
+	border-radius:0px;
+	font-size:20px;
+	width:457px;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+h2{
+	font-size:50px;
+	color:white;
+	margin-top:30px;
+	margin-bottom:60px;
+}
+#inputImage{
+	color:white;
+}
+	
+.navbar{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:rgb(0,0,0,0.5);
+	color:white;
+}	
+
+.brand-title{
+	font-size:3rem;
+	margin:.5rem;
+}
+	
+	.navbar-links ul {
+		margin:0;
+		padding:0;
+		display:flex;
+		
+	}
+	.navbar-links li{
+		list-style:none;
+		font-size:2rem;
+	}
+	.navbar-links li a{
+		text-decoration:none;
+		color:white;
+		padding:1rem;
+		display:block;
+		
+	}
+	.navbar-links li:hover{
+		background-color:#555;
+	}
+	.toggle-button{
+		position:absolute;
+		top:.75rem;
+		right:1rem;
+		display:none;
+		flex-direction:column;
+		justify-content:space-between;
+		width:30px;
+		height:21px;
+		
+	}
+	.toggle-button .bar{
+		height:3px;
+		width:100px;
+		background-color:white;
+		border-radius:10px;
+		
+	}
+	@media(max-width:400px){
+		.toggle-button{
+			display:flex;
+		}
+		.navbar-links{
+			display:none;
+			width:100%;
+		}
+		.navbar{
+			flex-direction:column;
+			align-items:flex-start;
+		}
+		.navbar-links li{
+			text-align:center;
+			
+		}
+		.navbar-links li a{
+			padding:.5rem 1rem;
+			
+		}
+		.navbar-links.active{
+			display:flex;
+		}
+	}
+.table{
+	background-color:#6D8092;
+}
